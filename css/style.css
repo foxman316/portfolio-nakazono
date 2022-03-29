@@ -78,7 +78,7 @@ ul.menu > li > a:hover{
 /*ヘッダー関係*/
 
 .l-marketing {
-    /*background-image: url("../img/maple-ga66736ba3_1920.jpg");*/
+    background-image: url("../img/maple-ga66736ba3_1920.jpg");
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
@@ -128,4 +128,20 @@ ul.menu > li > a:hover{
     height:1px;
     background-color:#ccc;
     margin:30px auto;
+}
+/*プロフィール関係*/
+
+.img{
+    margin-left: -100px;
+    width: 200px;
+    display: flex;
+    height: 200px;
+    position: absolute;
+}
+
+.profile-content {
+    width:75%;
+    padding:0px 12%;
+    line-height: 180%;
+    text-align: center;
 }
