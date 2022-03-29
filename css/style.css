@@ -16,7 +16,7 @@ body {
     color:#444;
 }
 
-/*.l-constrained {
+.l-constrained {
     width:880px;
     margin: 0 auto;
 }
@@ -38,7 +38,7 @@ body {
 .l-constrained-large {
     width:980px;
     margin: 0 auto;
-}*/
+}
 
 
 .separator-white {
@@ -145,3 +145,225 @@ ul.menu > li > a:hover{
     line-height: 180%;
     text-align: center;
 }
+/*ABOUT関係*/
+.section-product {
+    background-color:#eee;
+    padding:34px 0px;
+}
+
+/*アコーディオン関係*/
+/* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }*/
+  .ac {
+    width: 90%;
+    max-width:550px;
+    margin: 0 auto;
+  }
+  .ac-parent {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    transition: .3s;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .ac-child {
+    padding: 2em 1em;
+    background-color: #fff;
+  }
+
+  .close {
+    display: block;
+    height: 35px;
+    width: 25px;
+    margin: 3em auto 0;
+    padding: .5em 0;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+/*sample関係*/
+
+.works {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .works-card{
+    width: 60%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.7);
+    display: block;
+ }
+
+ .works-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+ }
+
+ .works h3{
+    padding: 10px;
+ }
+
+ .works-card  li{
+    list-style: none;
+ }
+
+
+ .works-comment{
+    width: 35%;
+    text-align: center;
+    display: block;
+    font-family: sans-serif;
+    font-weight: lighter;
+    
+ }
+
+ .works-comment li{
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: lighter;
+ }
+
+
+ .works-comment li a{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+ }
+
+ .works-comment li p{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+ }
+
+
+/*contact関係*/
+.section-contact {
+    padding:34px 0px 80px 0px;
+    color:#fff;
+    background-color: #232323;
+}
+
+.section-contact .section-content{
+    text-align: center;
+}
+
+input.text-email {
+    background-color:#666;
+    border:solid #101010 1px;
+    border-radius:3px;
+    width:550px;
+    color:#fff;
+    font-size: 40px;
+    text-align: center;
+    padding:16px 0px;
+    outline:none;
+}
+
+ul.tech {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.css{
+    color: deepskyblue;
+}
+
+.html{
+    color: coral;
+}
+
+.php{
+    color: rgb(214, 68, 214);
+}
+.laravel{
+    color: navy;
+}
+
+ul.tech > li {
+    padding-right:24px;
+    padding-bottom:16px;
+    display: inline-block;
+}
+
+ul.tech li img {
+    height:60px;
+    width: 60px;
+    transition: .5s ;
+    transform: rotateY( 0deg ) ;
+    transform: rotateY( 360deg ) ;
+}
+
+ul.social {
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+}
+
+
+ul.social >li {
+    display: table-cell;
+    padding:0px 16px;
+}
+
+ul.social > li > a{
+    color:#999;
+    text-decoration: none;
+    font-size: 40px;
+    transition: color 0.3s;
+}
+
+ul.social > li > a:hover{
+    color:#fff;
+}
+
+
+
+ul.horizontal-list {
+    list-style: none;
+}
+ul.products > li{
+    width:20%;
+    padding:8px;
+}
+
+ul.products > li > a{
+    display: block;
+    height: 160px;
+    width:100%;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow:0px 0px 3px rgba(0,0,0,0.2);
+}
+.section-product {
+    display: none;
+}
+
+.product-info > li {
+    list-style: none;
+    padding:16px 8px;
+    border-bottom:solid #ccc 1px;
+}
+
+.product-info > li .field {
+    width:20%;
+}
+
+.product-info > li .description {
+    width:80%;
+}
+
