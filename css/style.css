@@ -193,6 +193,40 @@ ul.menu > li > a:hover{
     transition: .3s;
 }
 
+/*スキル*/
+.skill {
+    width: 600px;
+    text-align: center;
+    margin:  150px 150px 100px auto;
+    }
+    
+    table, td, th {
+    border-collapse: collapse;
+    border: 1px #707070 solid;
+    }
+    
+    table {
+    margin: auto;
+    }
+    
+    th {
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    }
+    
+    td {
+    width: 300px;
+    padding: 15px;
+    color: #7fbfff;
+    }
+
+.fa-star:before {
+    content: "\f005";
+    display: inline-block;
+    width: 1.25em;
+    text-align: center;
+}
 /*sample関係*/
 
 .works {
