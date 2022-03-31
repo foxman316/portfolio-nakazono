@@ -237,9 +237,10 @@ ul.menu > li > a:hover{
 
 .works-card{
     width: 60%;
+    height: 200px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.7);
     display: block;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .works-card img{
@@ -271,7 +272,12 @@ ul.menu > li > a:hover{
     font-family: sans-serif;
     font-weight: lighter;
 }
-
+.under{
+    text-decoration: none;
+}
+.under:hover{
+    text-decoration: underline;
+}
 
 /*contact関係*/
 .section-contact {
