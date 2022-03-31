@@ -239,6 +239,7 @@ ul.menu > li > a:hover{
     width: 60%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.7);
     display: block;
+    margin-top: 20px;
 }
 
 .works-card img{
