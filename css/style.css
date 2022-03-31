@@ -121,6 +121,8 @@ ul.menu > li > a:hover{
 }
 
 
+
+
 .section-title:after {
     content: "";
     display: block;
@@ -132,7 +134,8 @@ ul.menu > li > a:hover{
 /*プロフィール関係*/
 
 .img{
-    margin-left: -100px;
+    margin-left: -200px;
+    margin-bottom: 300px;
     width: 200px;
     display: flex;
     height: 200px;
@@ -211,15 +214,24 @@ ul.menu > li > a:hover{
     
     th {
     width: 200px;
-    padding: 10px;
+    padding: 15px;
     font-weight: bold;
     }
     
-    td {
+    /*td {
     width: 300px;
     padding: 15px;
     color: #7fbfff;
-    }
+    }*/
+
+.star{
+    width: 200px;
+    padding: 15px;
+    color: #7fbfff;
+
+}
+
+
 
 .fa-star:before {
     content: "\f005";
@@ -227,6 +239,7 @@ ul.menu > li > a:hover{
     width: 1.25em;
     text-align: center;
 }
+
 /*sample関係*/
 
 .works {
@@ -313,20 +326,6 @@ ul.tech {
     justify-content: space-evenly;
 }
 
-.css{
-    color: deepskyblue;
-}
-
-.html{
-    color: coral;
-}
-
-.php{
-    color: rgb(214, 68, 214);
-}
-.laravel{
-    color: navy;
-}
 
 ul.tech > li {
     padding-right:24px;
